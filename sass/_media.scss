@@ -1,7 +1,4 @@
 @media (max-width: 700px) {
-    /* html {
-        font-size: 90%;
-    } */
     #header {
         .nav {
             .nav__label {
@@ -34,5 +31,31 @@
 
         }
     }
+
+    .map {
+        .map__container {
+            .ciudad {
+                iframe {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+    #footer {
+        .footer__container {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            gap: 20px;
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
 }
+
+
 

@@ -1,19 +1,18 @@
 #nosotros {
     margin-top: 150px;
     margin-bottom: 100px;
+    width: 100%;
+    height: auto;
     h1 {
         width: 100%;
         text-align: center;
     }
     .nosotros__container {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
         text-align: center;
         
         .container__item {
-
             margin-top: 50px;
             margin-bottom: 50px;
             display: flex;
@@ -39,25 +38,6 @@
                 }
             }
         }
-
-        /* .container__item {
-            ...
-
-            .item__description {
-                ...
-                h2 {
-                    ...
-                }
-                p {
-                    ...
-                }
-            }
-            .item__image {
-                img {
-                    ...
-                }
-            }
-        } */
     }
 
 }

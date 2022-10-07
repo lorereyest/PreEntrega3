@@ -1,17 +1,17 @@
 #formulario{
-    width: 100vw;
+    background-color: #fffcf3;
+    width: 100%;
     height: auto;
     padding-top: 90px;
 
     .contenedor-general-form{
-        max-width: 100vw;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: center;
         justify-content: center;
         align-items: center;
-        background-color: #ffffffc4;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -19,6 +19,7 @@
     p{
         color: #241b19;
         font-size: 25pt;
+        text-align: center;
     }
     button{
         align-items: center;
