@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+/*     border: solid 2px red; */
+}
+
+
+/* Header */
+#header {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 4;
+    position: fixed;
+    .nav {
+        width: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.685) 0%, rgba(0,0,0,0.4546860980720413) 48%, rgba(0,0,0,0.2810166302849265) 76%, rgba(0,0,0,0) 100%);
+        color: #FFFCF3;
+        /* font-size: 1.5rem; */
+        text-transform: uppercase;
+        
+        .nav__container {
+            display: flex;
+            height: 110px;
+            width: 95%;
+            flex-direction: row;
+           /*  align-content: center; */
+            justify-content:space-between;
+            align-items: center;
+        }
+        .nav__logo img { 
+            height: 50px;
+            width: auto;
+            padding-left: 40px;
+        }
+        .nav__label img {
+            height: 50px;
+            width: 50px;
+        }
+        .nav__input:checked + .nav__menu {
+            background-color: #d5c428;
+        }
+        .nav__menu {
+            display: grid;
+            grid-auto-flow: column;
+            gap: 3em;
+
+            .nav__item {
+                color: #FFFCF3;
+                text-decoration: none;
+                &:hover {
+                    color: #D5C328;
+                }
+            }
+        }
+        .nav__label, .nav__input {
+            display: none;
+        }
+        
+    }
+}
+
+
+/* Footer */
+#footer {
+    width: 100vw;
+    height: auto;
+    background-color: #FFFCF3;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    .footer__container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 40px;
+
+        .footer__icons {
+            a {
+                text-decoration: none;
+                margin-left: 30px;
+                img {
+                    width: 20px;
+                }  
+            }
+        }
+        .footer__copy {
+            p {
+                font-size: medium;
+            }
+        }
+    }
+
+}

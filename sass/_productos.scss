@@ -1,0 +1,38 @@
+#productos {
+    margin-top: 100px;
+    background-color: #FFFCF3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+    text-align: center;
+    color:#7e7e7e;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .card {
+        margin: 10px;
+        box-shadow: 10px 0px 5px -5px rgba(0, 0, 0, 0.459);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .card__body {
+            margin: 20px 10px 20px 10px;
+        }
+        .card__img {
+            max-width: 300px;
+        }
+    }
+    
+}

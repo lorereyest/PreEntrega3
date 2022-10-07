@@ -1,0 +1,29 @@
+#formulario{
+    width: 100vw;
+    height: auto;
+    padding-top: 90px;
+
+    .contenedor-general-form{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffffc4;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    p{
+        color: #241b19;
+        font-size: 25pt;
+    }
+    button{
+        align-items: center;
+    }
+
+}
+
+

@@ -1,0 +1,38 @@
+@media (max-width: 700px) {
+    /* html {
+        font-size: 90%;
+    } */
+    #header {
+        .nav {
+            .nav__label {
+                    display: block;
+                    cursor:pointer;                   
+            }
+            .nav__menu {
+                position: fixed;
+                top: 105px;
+                bottom: 0px;
+                background-color: #D5C328;
+                width: 100%;
+                left: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                transition: clip-path 1s;
+
+                .nav__item {
+                    &:hover {
+                        color: #141211d0;
+                    }
+                }
+            }
+            .nav__input:checked + .nav__menu {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+
+        }
+    }
+}
+
